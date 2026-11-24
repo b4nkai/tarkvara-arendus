@@ -66,9 +66,39 @@ mestitaval harul tehtud muudatused
     teha koodi kinnitus, mis sisaldab konflikti lahenduse käigus muudetud faile
 
 
-
-
 >versiooniajaloo kuvamine
+
+`git log`
+
+##Repositooriumi levitamine
+
+> serveriga uhendamine
+
+`git remote add origin html or ssh`
+
+>haru umber nimitamine (kui server eeldab kindlat nime)
+
+`git branch -M main`
+
+>haru serverisse laadimine
+
+`git push -u origin main`
+
+> hiljem loodud haru serveriga uhendamine
+
+`git push --setr-upstrean origin uue-haru-nimi`
+
+>juba uhendatud haru sisu servelist all laadimine
+
+`git pull`
+
+>juba uhendatud haru sisu serverisse laadimine
+
+`git push`
+
+>serveris oleva repositooriumi laadimine
+
+`git clone html`
 
 
 
